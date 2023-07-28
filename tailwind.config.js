@@ -4,7 +4,10 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      'poppins': ['Poppins', 'sans-serif'],
+      'lato': ['Lato', 'sans-serif']
+    },
   },
   plugins: [],
 }
